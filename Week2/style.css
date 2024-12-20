@@ -1,0 +1,87 @@
+body{
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align:center;
+}
+
+.modal{
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    padding: 5px;
+}
+
+.modal-content{
+    background-color: #fefefe;
+    margin: 0 auto 0 auto; 
+    padding: 15px;
+    border: 1px solid #888;
+    width: 25%;
+}
+
+.name, .deskripsi, .deadline{
+    width: 100%;
+    padding: 8px 10px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.button{
+    background-color: rgb(0, 0, 190);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin: 8px 0;
+    width: 100%;
+}
+
+.box{
+    margin: 5px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid lightgray;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.daftar{
+    height: 100%;
+    width: 100%;
+}
+
+.daftar-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hapus{
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin: 10px 0;
+}
+
+.judul{
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.isi{
+    font-size: 13px;
+}
+
+.dl{
+    color: #888;
+    font-size:12px;
+}
